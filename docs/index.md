@@ -5,6 +5,7 @@
 
 LocTag is a United States location-based service for adults age 18 and older.
 
+- [Delete Your LocTag Account](account-deletion.html)
 - [Privacy Policy](privacy-policy.html)
 - [Terms of Use](terms-of-use.html)
 - [Community Standards](community-standards.html)
