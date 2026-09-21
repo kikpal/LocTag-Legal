@@ -4,8 +4,6 @@ title: Delete Your LocTag Account
 permalink: /account-deletion.html
 ---
 
-# Delete Your LocTag Account
-
 Last updated: September 21, 2026
 
 This page explains how a LocTag user can request deletion of a LocTag account
