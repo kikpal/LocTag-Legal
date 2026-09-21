@@ -3,8 +3,8 @@
 
 # LocTag Terms of Use
 
-Effective: August 29, 2026  
-Version: 2026-08-29
+Effective: September 21, 2026
+Version: 2026-09-21
 
 These Terms govern use of LocTag. By creating or using an account, the user
 confirms that the user is in the United States, is at least 18 years old, and
@@ -14,11 +14,13 @@ Contact: loctag.support@gmail.com
 
 ## The service
 
-LocTag allows eligible users to attach text or photos to a destination and to
-discover or unlock content according to visibility, recipient, expiration,
-moderation, and server-side location rules. LocTag does not guarantee that a
-message, notification, map, coordinate, distance, or expiration job will be
-available, accurate, timely, or suitable for a particular purpose.
+LocTag allows eligible users to attach text or photos to destinations, save
+private drafts and Memories, manage connections and groups, and create or
+participate in Guided Journeys with ordered location stops. Content is made
+available according to visibility, recipient, blocking, expiration,
+moderation, sequence, and server-side location rules. LocTag does not guarantee
+that a message, notification, map, coordinate, distance, route, or expiration
+job will be available, accurate, timely, or suitable for a particular purpose.
 
 LocTag is not an emergency, rescue, surveillance, safety, or turn-by-turn
 navigation service. Contact emergency services when anyone is in danger.
@@ -45,11 +47,12 @@ coordinate illegal or dangerous activity.
 
 ## Published locations and content
 
-The tagged destination and protected content are locked after publication.
-Creators may manage permitted settings, recipients, expiration behavior, and
-deletion as the app allows. Public publication requires the creator to confirm
-that the destination is lawful and does not create an obvious safety or
-privacy risk.
+Tagged destinations and protected content are locked after publication as the
+app explains. Published Guided Journeys cannot be edited, and participants
+must unlock stops in order. Creators may manage permitted settings, recipients,
+expiration behavior, archive state, and deletion as the app allows. Public
+publication requires the creator to confirm that each destination is lawful
+and does not create an obvious safety or privacy risk.
 
 ## Moderation and evidence
 
@@ -61,7 +64,8 @@ user after deletion or expiration.
 
 ## Account termination
 
-Users may request account deletion through the app. A 30-day recovery window
+Users may request account deletion through the app or through the public
+[LocTag account-deletion page](account-deletion.html). A 30-day recovery window
 applies before permanent deletion processing. LocTag may restrict or terminate
 access for violations, risk, legal obligations, or service discontinuation.
 
@@ -79,4 +83,3 @@ should be reviewed by qualified counsel before commercial launch.
 Material updates receive a new version and may require renewed acceptance.
 Continued use after valid acceptance of an updated version is governed by that
 version.
-

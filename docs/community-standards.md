@@ -3,11 +3,11 @@
 
 # LocTag Community Standards
 
-Effective: August 29, 2026  
-Version: 2026-08-29
+Effective: September 21, 2026
+Version: 2026-09-21
 
-LocTag connects user-created content to real places. That makes location
-safety, consent, and lawful access mandatory.
+LocTag connects user-created LocTags and Guided Journey stops to real places.
+That makes location safety, consent, and lawful access mandatory.
 
 Contact: loctag.support@gmail.com
 
@@ -32,8 +32,11 @@ infringement.
 Users can report a LocTag and block a user in the app. Reporting immediately
 hides the reported LocTag from the reporter and sends protected listing
 evidence to the moderation queue. Blocking operates in both directions and
-revokes existing private sharing. Reports are not public and do not
-automatically delete content.
+hides access and notifications between the accounts. A user may choose a
+reversible block that preserves eligible relationships for restoration after
+unblocking, or remove the blocked account from connections, groups, LocTags,
+and Journeys where that option is offered. Reports are not public and do not
+automatically delete content. The blocked account is not told who blocked it.
 
 ## Enforcement and appeals
 
@@ -56,4 +59,3 @@ Copyright complaints should identify the protected work, the LocTag material,
 the complainant's contact information, the required good-faith statements,
 and a signature. Send complaints to loctag.support@gmail.com. LocTag intends
 to register and publish a designated DMCA agent before public UGC launch.
-

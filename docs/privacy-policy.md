@@ -3,12 +3,13 @@
 
 # LocTag Privacy Policy
 
-Effective: August 29, 2026  
-Version: 2026-08-29
+Effective: September 21, 2026
+Version: 2026-09-21
 
 LocTag is a United States location-based service for adults age 18 and older.
 This policy explains how LocTag processes information when people create,
-share, discover, unlock, report, or manage location-tagged content.
+share, discover, unlock, report, or manage location-tagged content, private
+drafts and Memories, connections and groups, and Guided Journeys.
 
 Contact: loctag.support@gmail.com
 
@@ -19,6 +20,15 @@ Contact: loctag.support@gmail.com
 - Creator content, including LocTag titles, previews, text, photos, captions,
   visibility, recipients, unlock radius, expiration settings, and creation
   time.
+- Private draft data, including unfinished content, selected recipients,
+  settings, and protected draft photos synchronized across the user's devices.
+- Private Memory data and diary notes associated with LocTags the user created
+  or previously accessed.
+- Connection requests, accepted connections, saved groups, group membership,
+  blocks, and the access choices made when blocking another account.
+- Guided Journey titles, descriptions, audience, ordered stops, destination
+  coordinates, unlock radii, protected stop content, participant progress,
+  completion state, archive state, and privacy-minimized verification records.
 - The exact destination selected by a creator. This coordinate is required to
   make the LocTag available at its tagged place and remains locked after
   publication.
@@ -27,8 +37,8 @@ Contact: loctag.support@gmail.com
 - Unlock receipts containing the verification time and rounded distance.
   LocTag does not place the recipient's raw verification coordinates in unlock
   history.
-- Notification device tokens, delivery attempts, delivery results, and user
-  notification choices.
+- Notification device tokens, LocTag, connection, moderation, and Journey
+  delivery attempts and results, and account-level notification choices.
 - Reports, blocks, appeals, moderation actions, account-deletion requests, and
   limited audit evidence needed for safety, security, and legal compliance.
 - Technical information needed to protect the service, such as timestamps,
@@ -36,11 +46,13 @@ Contact: loctag.support@gmail.com
 
 ## How LocTag uses information
 
-LocTag uses information to authenticate users; publish, discover, share, and
-unlock LocTags; enforce location and recipient access; send requested
-notifications; prevent abuse; operate reporting and moderation; respond to
-support requests; recover or delete accounts; investigate security incidents;
-and comply with applicable law.
+LocTag uses information to authenticate users; synchronize private drafts and
+Memories; manage connections and groups; publish, discover, share, and unlock
+LocTags and Guided Journey stops; retain Journey progress; enforce location,
+recipient, blocking, and moderation access; send requested notifications;
+prevent abuse; operate reporting and moderation; respond to support requests;
+recover or delete accounts; investigate security incidents; and comply with
+applicable law.
 
 LocTag does not request continuous background location for the MVP. Location
 is requested in the foreground when a user chooses a location-dependent
@@ -48,11 +60,13 @@ action. LocTag does not sell precise-location data.
 
 ## Visibility and sharing
 
-Public LocTag metadata can be discovered by eligible users near the tagged
-destination. Private LocTags are limited to recipients selected by the
-creator. The exact destination of an accessible shared LocTag may be displayed
-so the recipient can travel to it. Protected content remains locked until the
-server verifies the required location and access rules.
+Public LocTag and public Journey metadata can be discovered by eligible users.
+Private LocTags and Journeys are limited to eligible recipients selected by
+the creator. The exact destination of accessible location-linked content may
+be displayed so the participant can travel to it. Protected content remains
+locked until the server verifies the required location, sequence, and access
+rules. Private drafts, Memories, and diary notes are not shared with other
+users.
 
 LocTag relies on service providers such as Supabase, Expo/EAS, Google Play, and
 Google Maps to host data, deliver notifications, build/distribute the app, and
@@ -61,21 +75,26 @@ applicable agreements.
 
 ## Retention
 
-Account and LocTag data are retained while needed to provide the service.
-Expiration settings can hide, archive, or permanently delete a LocTag. An
-account-deletion request has a 30-day recovery period before permanent
-processing. Narrow safety, fraud-prevention, security, transaction, and
+Account, LocTag, draft, Memory, connection, group, and Journey data are retained
+while needed to provide the service or until the user removes them through an
+available control. Expiration settings can hide, archive, or permanently
+delete a LocTag. An account-deletion request has a 30-day recovery period
+before permanent processing. Permanent processing removes the authentication
+account, ordinary product records, and protected media owned by that account.
+Narrow deletion-audit, safety, fraud-prevention, security, transaction, and
 moderation records may be retained longer when reasonably necessary or
 required by law. Rate-limit counters are short-lived and contain no content or
 coordinates.
 
 ## Choices and rights
 
-Users can manage notification registration, block other users, report LocTags,
-review moderation status, submit an available appeal, and request recoverable
-account deletion in the app. Privacy requests can be sent to
-loctag.support@gmail.com. LocTag may verify the requester's identity before
-acting and will respond as required by applicable law.
+Users can manage notification registration and Journey invitation preferences,
+block or unblock other users, report LocTags, review moderation status, submit
+an available appeal, and request recoverable account deletion in the app.
+Users without access to the app can begin an account-deletion request through
+the [LocTag account-deletion page](account-deletion.html). Privacy requests can
+also be sent to loctag.support@gmail.com. LocTag may verify the requester's
+identity before acting and will respond as required by applicable law.
 
 ## Security and incidents
 
@@ -96,4 +115,3 @@ account and data can be reviewed.
 
 Material updates receive a new version and may require renewed in-app
 acceptance. The effective version is identified at the top of this policy.
-

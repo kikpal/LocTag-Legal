@@ -6,7 +6,7 @@ permalink: /account-deletion.html
 
 # Delete Your LocTag Account
 
-Last updated: September 1, 2026
+Last updated: September 21, 2026
 
 This page explains how a LocTag user can request deletion of a LocTag account
 and its associated data. LocTag is a United States location-based service for
@@ -61,9 +61,16 @@ the ordinary product data associated with it, including:
 - The LocTag authentication account and profile.
 - LocTags created by the account.
 - Protected LocTag content associated with those LocTags.
-- Stored photos associated with the account and its LocTags.
-- Ordinary sharing access and notification registrations tied to the deleted
-  account.
+- Drafts and their protected photos.
+- Private Memories and diary notes.
+- Guided Journeys, Journey stops, protected Journey content, participation,
+  progress, and unlock records.
+- Saved groups, group memberships, connections, sharing relationships, and
+  ordinary connection history.
+- Stored photos and other protected media owned by the account.
+- Push-notification tokens, preferences, and ordinary delivery records tied to
+  the account.
+- Ordinary unlock receipts and product activity tied to the account.
 
 ## Limited data that may be retained
 
