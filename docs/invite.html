@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Open and review a private-by-design LocTag invite."
+    />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; font-src 'none'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'none'; base-uri 'none'"
+    />
+    <link rel="icon" href="assets/loctag-logo.png" />
+    <link rel="stylesheet" href="invite.css" />
+    <title>Open a LocTag Invite</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to invite</a>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="LocTag Legal and Safety home">
+        <img src="assets/loctag-logo.png" alt="" width="38" height="70" />
+        <span>
+          <strong>LocTag</strong>
+          <small>Safe Invite</small>
+        </span>
+      </a>
+    </header>
+
+    <main id="main-content">
+      <section class="invite-card" aria-labelledby="page-title">
+        <div class="shield" aria-hidden="true">✓</div>
+        <p class="eyebrow">PRIVATE BY DESIGN</p>
+        <h1 id="page-title">You received a LocTag invite</h1>
+        <p class="lead">
+          Open LocTag, sign in, and review exactly what this invite does before
+          you decide whether to continue.
+        </p>
+
+        <div id="ready-panel" hidden>
+          <button class="primary-button" id="open-app" type="button">
+            OPEN LOCTAG
+          </button>
+          <p class="device-note" id="open-status" role="status" aria-live="polite">
+            You stay in control. Opening the app does not accept the invite.
+          </p>
+        </div>
+
+        <div id="invalid-panel" class="invalid-panel" hidden role="alert">
+          <strong>Invite link unavailable</strong>
+          <p>
+            This link is incomplete or invalid. Ask the sender to create a new
+            Safe Invite Link in LocTag.
+          </p>
+        </div>
+      </section>
+
+      <section class="privacy-grid" aria-label="Invite protections">
+        <article>
+          <span aria-hidden="true">1</span>
+          <div>
+            <h2>Sign-in required</h2>
+            <p>The app verifies the signed-in account before showing details.</p>
+          </div>
+        </article>
+        <article>
+          <span aria-hidden="true">2</span>
+          <div>
+            <h2>Review first</h2>
+            <p>No connection or content action happens without confirmation.</p>
+          </div>
+        </article>
+        <article>
+          <span aria-hidden="true">3</span>
+          <div>
+            <h2>Access rechecked</h2>
+            <p>Blocks, reports, moderation, and private access rules still apply.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="privacy-note" aria-labelledby="privacy-title">
+        <p class="eyebrow">LINK PRIVACY</p>
+        <h2 id="privacy-title">The browser does not redeem your invite</h2>
+        <p>
+          The private invite code is removed from the address bar immediately.
+          This page has no analytics and cannot send that code to a server. Only
+          the LocTag app can validate it after authentication.
+        </p>
+      </section>
+
+      <section class="pilot-note" aria-labelledby="pilot-title">
+        <h2 id="pilot-title">App did not open?</h2>
+        <p>
+          LocTag is currently in controlled testing. Install the current approved
+          test build on this device, return to the original invite, and tap
+          <strong>Open LocTag</strong> again.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-use.html">Terms of Use</a>
+      <a href="mailto:loctag.support@gmail.com">Support</a>
+    </footer>
+
+    <script src="invite.js"></script>
+  </body>
+</html>
